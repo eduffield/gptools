@@ -58,4 +58,3 @@ async def on_message(message):
 			await message.channel.send("You are not on the whitelist " + requester[:-5] + ".")
 		
 client.run(discordtoken)
-

@@ -14,3 +14,5 @@ pip install openai discord
 ```
 ## Screenshots
 ![Example](https://eduffield.github.io/images/screen1.png)
+![Example](https://eduffield.github.io/images/screen3.png)
+![Example](https://eduffield.github.io/images/screen4.png)

@@ -1,6 +1,6 @@
 import openai
 
-openai.api_key = "PASTE KEY HERE"
+openai.api_key = "PASTE_OPENAI_TOKEN"
 
 def listmodels():
     models = openai.Model.list()
@@ -28,7 +28,7 @@ def imgquery(userprompt):
 if __name__ == "__main__":
     listmodels()
     print()
-    print(query("A book report about war and peace"))
+    print(query("Write a book report on a Tolstoy novel."))
     print()
     print(imgquery("Avocado chair"))
     print()
